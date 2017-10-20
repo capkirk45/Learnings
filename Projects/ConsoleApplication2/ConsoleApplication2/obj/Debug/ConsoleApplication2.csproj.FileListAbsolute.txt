@@ -1,0 +1,9 @@
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DbUp.dll
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DbUp.pdb
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\DbUp.xml
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\kirk\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

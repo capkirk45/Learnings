@@ -1,0 +1,9 @@
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\ZUP.exe.config
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\ZUP.exe
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\ZUP.pdb
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\DbUp.dll
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\DbUp.pdb
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\bin\Debug\DbUp.xml
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\obj\Debug\ZUP.csprojResolveAssemblyReference.cache
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\obj\Debug\ZUP.exe
+C:\Users\Kirk\documents\visual studio 2015\Projects\dbup_test\dbup_test\obj\Debug\ZUP.pdb

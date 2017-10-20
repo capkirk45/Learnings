@@ -1,0 +1,1 @@
+﻿EXEC sp_RENAME 'dbo.ProcedureStent.BalloonDilation', 'PostStentBalloonDilation', 'COLUMN';

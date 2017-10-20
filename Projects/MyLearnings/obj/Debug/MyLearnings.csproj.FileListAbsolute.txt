@@ -1,0 +1,6 @@
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\bin\Debug\BubbleSort.exe.config
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\obj\Debug\BubbleSort.exe
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\obj\Debug\BubbleSort.pdb
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\bin\Debug\BubbleSort.exe
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\bin\Debug\BubbleSort.pdb
+C:\workspaces\gitprojects\Learnings\Projects\MyLearnings\obj\Debug\MyLearnings.csprojResolveAssemblyReference.cache
