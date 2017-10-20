@@ -10,6 +10,8 @@ namespace MyLearnings
     {
         static void Main(string[] args)
         {
+            ReverseStringArray("this is a string to reverse");
+            ReverseString();
             BubbleSortmeth();
 
         }
@@ -42,13 +44,21 @@ namespace MyLearnings
 
         static void ReverseString()
         {
-            var s = "this is a string to reverse";
-            var len = s.Length;
+            var fullString = "this is a string to reverse";
+            var len = fullString.Length;
+            string reversedString = null;
 
-            for (int i = 0; i = 10; i++)
+            for (int i = len-1; i >= 0; i--)
             {
-
+                var s = fullString.Substring(i, 1);
+                reversedString = reversedString + s;
             }
+        }
+
+        static void ReverseStringArray(string s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
         }
         
     }
