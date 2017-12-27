@@ -1,7 +1,9 @@
-﻿using System;
+﻿using FactoryPractice;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MyLearnings
@@ -10,9 +12,22 @@ namespace MyLearnings
     {
         static void Main(string[] args)
         {
-            ReverseStringArray("this is a string to reverse");
-            ReverseString();
-            BubbleSortmeth();
+
+
+            //MyMethodAsync();
+            //var thread = Thread.CurrentThread.ManagedThreadId;
+            //for (var i = 0; i <=10000; i++)
+            //{
+            //    Console.WriteLine(string.Format("Long running task is executing on thread {0} for loop {1}", thread, i));
+            //}
+            //Console.ReadKey();
+
+
+            //PausePrinting();
+            //ReverseStringArray("this is a string to reverse");
+            //ReverseString();
+            //BubbleSortmeth();
+            FactoryPracticeClient.ReadInvoice();
 
         }
 
@@ -60,6 +75,37 @@ namespace MyLearnings
             char[] charArray = s.ToCharArray();
             Array.Reverse(charArray);
         }
+
+        
+        static void BubbleSortAgain(int[] a)
+        {
+
+        }
+
+        static void PausePrinting()
+        {
+            var end = DateTime.Now + TimeSpan.FromSeconds(10);
+            Console.WriteLine("waiting ..");
+            while (DateTime.Now < end) { }
+        }
+
+        static async Task<int> PausePrinterAsync()
+        {
+            await Task.Delay(3000);
+            return 1;
+        } 
+
+        static async void MyMethodAsync()
+        {
+            Task<int> longRunningTask = PausePrinterAsync();
+            Console.WriteLine("Long running task is executing ..");
+
+            var result = await longRunningTask;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(string.Format("Oh, I finished!  The result value is: {0} on Thread {1}", result, Thread.CurrentThread.ManagedThreadId));
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
         
     }
 }
