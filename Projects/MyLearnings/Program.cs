@@ -27,7 +27,10 @@ namespace MyLearnings
             //ReverseStringArray("this is a string to reverse");
             //ReverseString();
             //BubbleSortmeth();
-            FactoryPracticeClient.ReadInvoice();
+            //FactoryPracticeClient.ReadInvoice();
+
+            var bridgePattern = new BridgePattern.Client();
+           
 
         }
 
