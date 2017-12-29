@@ -49,6 +49,7 @@
     <Compile Include="Delegate.cs" />
     <Compile Include="FactoryPractice.cs" />
     <Compile Include="LINQ.cs" />
+    <Compile Include="MultiThreading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
