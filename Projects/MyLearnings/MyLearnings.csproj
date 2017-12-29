@@ -7,7 +7,7 @@
     <ProjectGuid>{53B48246-15BF-4EA3-908A-C6727B971F54}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BubbleSort</RootNamespace>
+    <RootNamespace>MyLearnings</RootNamespace>
     <AssemblyName>BubbleSort</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,14 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms.cs" />
     <Compile Include="BestPractices.cs" />
     <Compile Include="BridgePattern.cs" />
+    <Compile Include="Delegate.cs" />
     <Compile Include="FactoryPractice.cs" />
+    <Compile Include="LINQ.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProblemSolving.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

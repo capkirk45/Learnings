@@ -1,0 +1,24 @@
+﻿When problem solving a new algorithm solution:
+
+1. Understand the problem.  Read multiple times
+2. Manually solve problem using test data
+3. pseudo-code problem into a solution
+4. Code to solve
+5. Optimize.  Look for corner cases
+6. test test test
+
+
+When problem is a bug/production issue/etc:
+
+1. Understand the problem.  what lead to problem.  narrow down. 
+2. Examine evidence, hopefully there's a good exception message.
+ a. logs
+  i.	iis
+  ii.	sql logging 
+  ii.	files
+  iii.  windows events
+ b. source code.  based on excpetion message.
+ c. replicate on localhost and debug into
+
+
+ 

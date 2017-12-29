@@ -11,7 +11,7 @@ namespace BestPractices
 
     }
 
-
+    //to be refactored
     public class Class1
     {
         public decimal Calculate(decimal amount, int type, int years)

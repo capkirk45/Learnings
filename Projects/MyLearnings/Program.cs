@@ -1,4 +1,5 @@
-﻿using FactoryPractice;
+﻿using Algorithms;
+using FactoryPractice;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,10 +30,13 @@ namespace MyLearnings
             //BubbleSortmeth();
             //FactoryPracticeClient.ReadInvoice();
 
-            var bridgePattern = new BridgePattern.Client();
-           
-
-        }
+            //var bridgePattern = new BridgePattern.Client();
+            //StringPuzzles.FindFirstRepeatingCharacterUsingHashLookup("abcdbcd");
+            //LINQ.QuerySyntax.SelectContains();
+            //LINQ.QuerySyntax.SelectLamdaSearch();
+            //var fixedWords = StringPuzzles.CapitalizeTitle("i'm going to correctly cAPiTALizE these words");
+            DelegateConsumer.ChangeNameInGradeBook();
+        }   
 
         static void BubbleSortmeth()
         {
