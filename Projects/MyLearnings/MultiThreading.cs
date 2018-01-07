@@ -33,4 +33,44 @@ namespace MyLearnings
             Console.ForegroundColor = ConsoleColor.White;
         }
     }
+
+    public class ThreadTestClass
+    {
+        bool done;
+        static readonly object locker = new object();
+
+        public void TestThreadWithJoin()
+        {
+            Thread t = new Thread (GoWithJoin);
+            t.Start();
+            t.Join();
+            Console.WriteLine("The main thread had finished");
+        }
+
+        public void TestThread()
+        {
+            ThreadTestClass tt = new ThreadTestClass();
+            new Thread(tt.Go).Start();
+            tt.Go();
+        }
+
+        void GoWithJoin()
+        {
+            for (int i = 0; i<=1000; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        void Go()
+        {
+            lock (locker)
+            {
+                if (!done) { done = true; Console.Write("done"); }
+            }
+        }    
+            
+            
+    }
+
 }

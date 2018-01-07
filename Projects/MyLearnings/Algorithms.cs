@@ -7,6 +7,46 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
+
+    public static class LinkedList
+    {
+        internal class Node
+        {
+            public int Value { get; set; }
+            public Node Next { get; set; }
+        }
+
+        public static void SimpleLinkedNodes()
+        {
+            //3 null
+            var first = new Node { Value = 3 };
+
+            //3 null 5 null
+            var middle = new Node { Value = 5 };
+
+            //3 --> 5 null
+            first.Next = middle;
+
+            //3 --> 5 null, 7 null
+            var last = new Node { Value = 7 };
+
+            //3 --> 5 --> 7 null
+            middle.Next = last;
+
+            PrintList(first);
+        }
+
+        static void PrintList(Node node)
+        {
+            while (node != null)
+            {
+                Console.WriteLine(string.Format("node position is {0}", node.Value));
+                node = node.Next;
+            }
+        }
+    }
+
+
     public static class StringPuzzles
     {
         public static string FindFirstRepeatingCharacterUsingHashLookup(string s)

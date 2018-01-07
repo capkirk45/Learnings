@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyLearnings
 {
-    public delegate void NameChangedDelegate(string oldvalue, string newvalue);
+    public delegate void NameChangedDelegate(Object sender, NameChangedEventArgs args);
 
 
     public static class DelegateConsumer
@@ -24,14 +24,14 @@ namespace MyLearnings
             gb.Name = "Miller";
         }
 
-        private static void OnNameChanged(string oldvalue, string newvalue)
+        private static void OnNameChanged(Object sender, NameChangedEventArgs args)
         {
-            Console.WriteLine(string.Format("Old Name: {0}, New Name: {1}", oldvalue, newvalue));
+            Console.WriteLine(string.Format("Old Name: {0}, New Name: {1}", args.OldValue, args.NewValue));
         }
 
-        private static void OnNameChanged2(string oldvalue, string newvalue)
+        private static void OnNameChanged2(Object sender, NameChangedEventArgs args)
         {
-            Console.WriteLine(string.Format("Something different: {0}, New something different: {1}", oldvalue, newvalue));
+            Console.WriteLine(string.Format("Something different: {0}, New something different: {1}", args.OldValue, args.NewValue));
         }
 
     }
@@ -57,12 +57,22 @@ namespace MyLearnings
                     _name = value;
                     if (NameChanged != null)
                     {
-                        NameChanged(oldName, value);
+                        var args = new NameChangedEventArgs();
+                        args.OldValue = _name;
+                        args.NewValue = value;
+                        NameChanged(this, args);
                     }
                 }
             }
         }
-        public NameChangedDelegate NameChanged;
+        public event NameChangedDelegate NameChanged;
 
     }
+
+    public class NameChangedEventArgs : EventArgs
+    {
+        public string OldValue { get; set; }
+        public string NewValue { get; set; }
+    }
+
 }

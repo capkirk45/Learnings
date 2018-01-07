@@ -10,8 +10,11 @@ Scenario:  Usage of the Bridge design pattern to facilitate proper construction 
     Light fixture
     Fan fixture
 */
-namespace BridgePattern
+namespace DesignPatterns
 {
+    /// <summary>
+    /// Bridge Pattern consumer
+    /// </summary>
     public class Client
     {
         public Client()

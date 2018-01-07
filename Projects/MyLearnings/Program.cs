@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using DesignPatterns;
 
 namespace MyLearnings
 {
@@ -35,7 +36,19 @@ namespace MyLearnings
             //LINQ.QuerySyntax.SelectContains();
             //LINQ.QuerySyntax.SelectLamdaSearch();
             //var fixedWords = StringPuzzles.CapitalizeTitle("i'm going to correctly cAPiTALizE these words");
-            DelegateConsumer.ChangeNameInGradeBook();
+            //DelegateConsumer.ChangeNameInGradeBook();
+            //var threadTestClass = new ThreadTestClass();
+            //threadTestClass.TestThread();
+            //threadTestClass.TestThreadWithJoin();
+
+            //var singleton = Singleton.GetInstance;
+            //var another = Singleton.GetInstance;
+            //var bridgeclient = new DesignPatterns.BridgeClientConsumer();
+            //bridgeclient.DesignRoom();
+
+            //LinkedList.SimpleLinkedNodes();
+
+            MSInterview.IntegerToString();
         }   
         
     }

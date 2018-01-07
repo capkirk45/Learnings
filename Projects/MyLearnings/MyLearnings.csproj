@@ -45,13 +45,15 @@
   <ItemGroup>
     <Compile Include="Algorithms.cs" />
     <Compile Include="BestPractices.cs" />
-    <Compile Include="BridgePattern.cs" />
+    <Compile Include="Bridge.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="FactoryPractice.cs" />
     <Compile Include="LINQ.cs" />
+    <Compile Include="MSInterview.cs" />
     <Compile Include="MultiThreading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
